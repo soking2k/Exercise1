@@ -7,17 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Exercise 1</title>
   <!-- Bootstrap core CSS -->
- <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link rel="stylesheet" href="css/main.css">
-
-
 </head>
 
 <body>
   <header>
     <!--nav -->
-    <div class="navbar navbar-expand-xl fixed-top navbar-light bg-green shadow-sm" >
+    <div class="navbar navbar-expand-xl fixed-top navbar-light bg-green shadow-sm">
       <div class="container-xl d-flex justify-content-between">
         <a href="#" class="navbar-brand d-flex align-items-center">
           <img src="assets/logo_tps.svg" alt="TPS's Logo">
@@ -29,19 +27,19 @@
         <div class="collapse navbar-collapse" id="navbarHeader">
           <ul class="navbar-nav ml-auto ">
             <li class="nav-item ">
-              <a class="nav-link" style="color: white;" href="#">Setting</a>
+              <a class="nav-link" id="setting" href="#">Setting</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link" style="color: white;" href="#">Help</a>
+              <a class="nav-link" id="help" href="#">Help</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link" id="hidden2" style="color: white;" href="#">.</a>
+              <a class="nav-link" id="dot" href="#">.</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link" style="color:white;" id="hidden1" href="#">Administrator</a>
+              <a class="nav-link" id="accountname" href="#">Administrator</a>
             </li>
             <a href="#" class="navbar-brand d-flex align-items-center">
-              <img src="assets/avatar-1.png"  id="hidden" alt="TPS's Logo" width="40px" height="10px"> 
+              <img src="assets/avatar-1.png" id="avatar" alt="TPS's Logo" width="40px" height="10px">
             </a>
 
           </ul>
@@ -50,66 +48,66 @@
       </div>
     </div>
   </header>
-    <div class="box_main">
-        <div class="box">
-          <!--Item 1-->
-          <div class="box_item" style="background-color: #1969a6;">
-            <img src="assets/icon-feature-08.svg"  class="img_box" alt="hint" width="50px" height="50px"  >
-            <b style="color: white; margin-top: 60px;">Create new Serivce</b>
-            <p class="paragraph">Wisi ornatus his at, viderer tractatos incorrupte has te.</p>       
-          </div>
-          <!--Item 2-->
+  <div class="container" id="container_margin">
+    <div class="row">
+      <!--Item 1-->
+      <div class="col-3-md box_item" id="Create">
+        <img src="assets/icon-feature-08.svg" class="img_box" alt="hint" width="50px" height="50px">
+        <b>Create new Serivce</b>
+        <p class="paragraph">Wisi ornatus his at, viderer tractatos incorrupte has te.</p>
+      </div>
+      <!--Item 2-->
 
-          <div class="box_item" style="background-color: #c83233;">
-            <img src="assets/icon-feature-07.svg"  class="img_box" alt="hint" width="50px" height="50px"  >
-            <b style="color: white; margin-top: 60px;">Add new client</b>
-            <p class="paragraph">Facer nostro causae ei sed. Vix ex quidam detraxit, vis ad nostro laoreet.</p>       
-          </div>
+      <div class="col-3-md box_item" id="Add">
+        <img src="assets/icon-feature-07.svg" class="img_box" alt="hint" width="50px" height="50px">
+        <b>Add new client</b>
+        <p class="paragraph">Facer nostro causae ei sed. Vix ex quidam detraxit, vis ad nostro laoreet.</p>
+      </div>
 
-          <!--Item 3-->
-          <div class="box_item" style="background-color: #1a8243;">
-            <img src="assets/icon-feature-06.svg"  class="img_box" alt="hint" width="50px" height="50px"  >
-            <b style="color: white; margin-top: 60px;">Sales</b>
-            <p class="paragraph">Fuisset intellegat delicatissimi ex mea. Cu probo integre nec.</p>       
-          </div>
+      <!--Item 3-->
+      <div class="col-3-md box_item" id="Sales">
+        <img src="assets/icon-feature-06.svg" class="img_box" alt="hint" width="50px" height="50px">
+        <b>Sales</b>
+        <p class="paragraph">Fuisset intellegat delicatissimi ex mea. Cu probo integre nec.</p>
+      </div>
 
-          <!--Item 4-->
-          <div class="box_item" style="background-color: #b8a614;">
-            <img src="assets/icon-feature-05.svg"  class="img_box" alt="hint" width="50px" height="50px"  >
-            <b style="color: white; margin-top: 60px;">Financial</b>
-            <p class="paragraph">Ne usu illud albucius abhor reant, partiendo scriptorem mel ne</p>       
-          </div>
-          
-          <!--Item 5-->
-          <div class="box_item" style="background-color: #949945;">
-            <img src="assets/icon-feature-04.svg"  class="img_box" alt="hint" width="50px" height="50px"  >
-            <b style="color: white; margin-top: 60px;">Unpaid invoices</b>
-            <p class="paragraph">Wisi ornatus his at, viderer tractatos incorrupte has te.</p>       
-          </div>    
-          
-          <!--Item 6-->
-          <div class="box_item" style="background-color: #aa2a2b;">
-            <img src="assets/icon-feature-03.svg"  class="img_box" alt="hint" width="50px" height="50px"  >
-            <b style="color: white; margin-top: 60px;">Yeat to date earnings</b>
-            <p class="paragraph">Facer nostro causae ei sed. Vix ex quidam detraxit, vis ad nostro laoreet.</p>       
-          </div>       
+      <!--Item 4-->
+      <div class="col-3-md box_item" id="Financial">
+        <img src="assets/icon-feature-05.svg" class="img_box" alt="hint" width="50px" height="50px">
+        <b>Financial</b>
+        <p class="paragraph">Ne usu illud albucius abhor reant, partiendo scriptorem mel ne</p>
+      </div>
 
-          <!--Item 7-->
-          <div class="box_item" style="background-color: #76de31;">
-            <img src="assets/icon-feature-02.svg"  class="img_box" alt="hint" width="50px" height="50px"  >
-            <b style="color: white; margin-top: 60px;"> Get started</b>
-            <p class="paragraph">Fuisset intellegat delicatissimi ex mea. Cu probo integre nec.</p>       
-          </div>
+      <!--Item 5-->
+      <div class="col-3-md box_item" id="Unpaid">
+        <img src="assets/icon-feature-04.svg" class="img_box" alt="hint" width="50px" height="50px">
+        <b>Unpaid invoices</b>
+        <p class="paragraph">Wisi ornatus his at, viderer tractatos incorrupte has te.</p>
+      </div>
 
-          <!--Item 8-->
-          <div class="box_item" style="background-color: #34e0e0;">
-            <img src="assets/icon-feature-01.svg"  class="img_box" alt="hint" width="50px" height="50px"  >
-            <b style="color: white; margin-top: 60px;">Switch to app view</b>
-            <p class="paragraph">Ne usu illud albucius abhor reant, partiendo scriptorem mel ne</p>       
-          </div>              
+      <!--Item 6-->
+      <div class="col-3-md box_item" id="Year">
+        <img src="assets/icon-feature-03.svg" class="img_box" alt="hint" width="50px" height="50px">
+        <b>Year to date earnings</b>
+        <p class="paragraph">Facer nostro causae ei sed. Vix ex quidam detraxit, vis ad nostro laoreet.</p>
+      </div>
+
+      <!--Item 7-->
+      <div class="col-3-md box_item" id="Get">
+        <img src="assets/icon-feature-02.svg" class="img_box" alt="hint" width="50px" height="50px">
+        <b> Get started</b>
+        <p class="paragraph">Fuisset intellegat delicatissimi ex mea. Cu probo integre nec.</p>
+      </div>
+
+      <!--Item 8-->
+      <div class="col-3-md box_item" id="Switch">
+        <img src="assets/icon-feature-01.svg" class="img_box" alt="hint" width="50px" height="50px">
+        <b>Switch to app view</b>
+        <p class="paragraph">Ne usu illud albucius abhor reant, partiendo scriptorem mel ne</p>
+      </div>
     </div>
-  <script src="js/jquery-3.5.1.js"></script>
-  <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/bootstrap.js"></script>
   </div>
 </body>
 
